@@ -1,0 +1,38 @@
+.encounter-list {
+  display: flex;
+  max-height: 400px;
+  width: 100vw;
+  flex-direction: row;
+  overflow-x: scroll;
+  font-size: 0.75em;
+}
+
+.creature-block {
+  border: 3px solid transparent;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 250px;
+  padding: 5px;
+  background-image: url("../images/Y5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.encounter_subtitle {
+  font-weight: bold;
+}
+.encounter_title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.encounter_top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.selected {
+  border: rgb(94, 230, 94) 3px solid !important;
+}
+.block_footer {
+  position: absolute;
+  bottom: 0;
+}

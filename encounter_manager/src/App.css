@@ -1,0 +1,35 @@
+.App {
+  display: grid;
+  grid-template-areas: "encounter" "details";
+  grid-template-rows: 1fr 3fr;
+  min-height: 100vh;
+  background: rgb(85, 85, 85);
+}
+
+.encounter-container {
+  grid-area: encounter;
+}
+
+.details-container {
+  grid-area: details;
+  display: grid;
+  grid-template-areas: "search result";
+  grid-template-columns: 1fr 3fr;
+}
+.search-container {
+  grid-area: search;
+}
+.result-container {
+  margin: 10px;
+  padding: 10px;
+  border: 1px black solid;
+  grid-area: result;
+  font-size: small;
+  background-image: url("./images/monster_block_background.jpg");
+  max-width: 1200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.action_titles {
+  font-size: 1.5em;
+}

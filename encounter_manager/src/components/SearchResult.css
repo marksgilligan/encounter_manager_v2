@@ -1,0 +1,23 @@
+.name {
+  font-size: 2em;
+}
+
+.description {
+  font-size: small;
+}
+
+.damage-resitances {
+}
+.damage-immunities {
+}
+.condition-immunities {
+}
+.abiltiy-list-item {
+  font-size: small;
+}
+.action-type {
+  font-style: italic;
+}
+.subtitle {
+  font-weight: bold;
+}
