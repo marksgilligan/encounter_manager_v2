@@ -197,11 +197,13 @@ export default function SearchResult({
             })}
           </div>
         ) : null}
-        <div className="challenge">
-          <span className="subtitle">Challenge:</span>{" "}
-          {searchResult.challenge.value},{" "}
-          {`(${searchResult.challenge.experience})`}xp
-        </div>
+        {searchResult.challenge.value ? (
+          <div className="challenge">
+            <span className="subtitle">Challenge:</span>{" "}
+            {searchResult.challenge.value},{" "}
+            {`(${searchResult.challenge.experience})`}xp
+          </div>
+        ) : null}
         <hr />
         <div className="special-abilties">
           {searchResult.special_abilties.map((special_abilites_item: any) => {

@@ -32,7 +32,7 @@
           "reach_value": 5,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "2 (1d4)",
+          "damage_value": "1d4",
           "damage_type": "bludgeoning damage"
         }
       ],
@@ -47,93 +47,6 @@
       "intelligence": 10,
       "wisdom": 14,
       "charisma": 11
-    },
-    {
-      "armor_class": { "value": 15, "armor_type": "Steel Plate" },
-      "hit_points": { "value": 10, "dice": "1d20" },
-      "speed": [
-        { "name": "Walk", "distance": 60 },
-        { "name": "Fly", "note": "hover", "distance": 60 }
-      ],
-      "saving_throws": [
-        { "name": "Dexterity", "value": 4 },
-        { "name": "Strength", "value": -2 }
-      ],
-      "skills": [
-        { "name": "Religion", "value": 2 },
-        { "name": "Charisma", "value": 3 }
-      ],
-      "damage_resistances": ["poison", "slashing"],
-      "damage_immunities": ["poison", "slashing"],
-      "condition_immunities": ["frightened", "charmed", "sleep"],
-      "senses": [
-        { "name": "Darkvision", "value": "60ft" },
-        { "name": "Perception", "value": "10", "passive": true }
-      ],
-      "languages": ["Common", "Elvish"],
-      "challenge": { "value": "1/2", "experience": 50 },
-      "special_abilties": [
-        {
-          "name": "Illumination",
-          "desc": "As a bonus action, the swarm can shed dim ligfht form its brains in a 5ft radius, increase the illumination to bright light in a 5 - 20 foot radius ( and dim light for an additional number of feet equal to the chosen radius), or extinguish the light."
-        },
-        {
-          "list": [
-            "1st level (4 slots): cure wounds, jump",
-            "2nd level (3 slots): barkskin, spikegrowth",
-            "3rd level (2 slots): plant growth "
-          ],
-          "name": "Spellcasting",
-          "desc": "The Grung is a 9th-level spellcaster. it's spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It knows the following ranger spells:"
-        }
-      ],
-      "actions": [
-        {
-          "name": "Dagger",
-          "type": "Melee or Ranged Weapon Attack",
-          "hit_bonus": 5,
-          "melee_reach_value": 5,
-          "ranged_reach_value_short": 30,
-          "ranged_reach_value_long": 60,
-          "reach_measurement": "ft",
-          "target_count": "1",
-          "damage_value": "5 (1d4 + 3)",
-          "damage_type": "piercing",
-          "extra_damage": [
-            {
-              "value": "5 (2d4)",
-              "damage_type": "poison",
-              "description": "and the target must succeed on a DC 12 Constitution saving throw or take"
-            }
-          ]
-        },
-        {
-          "name": "Multiattack",
-          "description": "The ki-rin makes three attacks: two with its hooves and one with its horn"
-        }
-      ],
-      "legendary_actions_description": "The giant can take 3 legendary actions choosing from the options below",
-      "legendary_actions": [
-        {
-          "name": "Detect",
-          "description": "The ki-rin makes a Wisdom (Perception) check or a Wisdom (insight) check"
-        },
-        {
-          "name": "Smite",
-          "description": "The ki-rin makes a hoof attack or casts sacred flame."
-        }
-      ],
-      "id": "test",
-      "name": "Test",
-      "size": "Large",
-      "type": "Humanoid",
-      "alignment": "Choatic Neutral",
-      "strength": 15,
-      "dexterity": 15,
-      "constitution": 15,
-      "intelligence": 15,
-      "wisdom": 13,
-      "charisma": 14
     },
     {
       "armor_class": { "value": 13, "armor_type": "natural armor" },
@@ -168,7 +81,7 @@
           "melee_reach_value": 5,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "5 (1d6+2)",
+          "damage_value": "1d6+2",
           "damage_type": "piercing"
         },
         {
@@ -178,7 +91,7 @@
           "melee_reach_value": 5,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "5 (1d6+2)",
+          "damage_value": "1d6+2",
           "damage_type": "bludgeoning"
         },
         {
@@ -190,7 +103,7 @@
           "ranged_reach_value_long": 120,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "5 (1d6+2)",
+          "damage_value": "1d6+2",
           "damage_type": "piercing"
         },
         {
@@ -200,7 +113,7 @@
           "melee_reach_value": 5,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "5 (1d6+2)",
+          "damage_value": "1d6+2",
           "damage_type": "piercing"
         },
         {
@@ -211,7 +124,7 @@
           "ranged_reach_value_long": 320,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "5 (1d6+2)",
+          "damage_value": "1d6+2",
           "damage_type": "piercing"
         },
         {
@@ -221,7 +134,7 @@
           "melee_reach_value": 5,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "7 (1d8+2)",
+          "damage_value": "1d8+2",
           "damage_type": "slashing"
         }
       ],
@@ -280,7 +193,7 @@
           "melee_reach_value": 5,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "5 (1d6+2)",
+          "damage_value": "1d6+2",
           "damage_type": "piercing",
           "description": "or 7 (1d10 + 2) piercing damage in crocodile form. If the lizardfolk is crocodile form and the target is a Large or smaller creature, the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the lizardfolk can't bite another target. If the lizard revert to its true form, the grapple ends."
         },
@@ -291,7 +204,7 @@
           "melee_reach_value": 5,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "4 (1d4+2)",
+          "damage_value": "1d4+2",
           "damage_type": "slashing"
         },
         {
@@ -356,7 +269,7 @@
           "melee_reach_value": 5,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "6 (1d6+3)",
+          "damage_value": "1d6+3",
           "damage_type": "piercing"
         },
         {
@@ -366,7 +279,7 @@
           "melee_reach_value": 5,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "5 (1d4+3) ",
+          "damage_value": "1d4+3",
           "damage_type": "slashing"
         },
         {
@@ -377,9 +290,9 @@
           "ranged_reach_value_short": 20,
           "ranged_reach_value_long": 60,
           "reach_measurement": "ft",
-          "description": "or 7 (1d8 +3) piercing damage if used with two hands to make a melee attack.",
+          "description": "or 1d8+3 piercing damage if used with two hands to make a melee attack.",
           "target_count": "1",
-          "damage_value": "6 (1d6+3)",
+          "damage_value": "1d6+3",
           "damage_type": "piercing"
         }
       ],
@@ -423,7 +336,7 @@
           "melee_reach_value": 4,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "21 (3d10 + 5)",
+          "damage_value": "3d10 + 5",
           "damage_type": "piercing",
           "description": "and the target is grappled (escape DC16). Until this grapple ends, the target is restrained, and the crocodile can't bite another target"
         },
@@ -435,7 +348,7 @@
           "reach_measurement": "ft",
           "description": "If the target is a creature, it must succeed on a DC 16 strength throw or be knocked prone.",
           "target_count": "1",
-          "damage_value": "14 (2d8 + 5)",
+          "damage_value": "2d8 + 5",
           "damage_type": "bludgeoning"
         }
       ],
@@ -474,7 +387,7 @@
           "hit_bonus": 4,
           "melee_reach_value": 4,
           "reach_measurement": "ft",
-          "damage_value": "7 (1d10 + 2)",
+          "damage_value": "1d10 + 2",
           "damage_type": "piercing",
           "description": "and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can't bite another target."
         }
@@ -511,7 +424,7 @@
           "melee_reach_value": 4,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "5 (1d6 + 2)",
+          "damage_value": "1d6 + 2",
           "damage_type": "piercing"
         }
       ],
@@ -579,7 +492,7 @@
           "melee_reach_value": 10,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "11 (2d6 + 4)",
+          "damage_value": "2d6 + 4",
           "damage_type": "bludgeoning"
         },
         {
@@ -590,7 +503,7 @@
           "reach_measurement": "ft",
           "description": "and the target it grappled (escape DC 16). Until this grapple ends the creature is restrained, and the snake can't constrict another target.",
           "target_count": "1",
-          "damage_value": "13 (2d8 + 4)",
+          "damage_value": "2d8 + 4",
           "damage_type": "bludgeoning"
         }
       ],
@@ -629,7 +542,7 @@
           "reach_measurement": "ft",
           "description": "and the target must take a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save or half as much damage on a successful one.",
           "target_count": "1",
-          "damage_value": "6 (1d4 + 4)",
+          "damage_value": "1d4 + 4",
           "damage_type": "piercing"
         }
       ],
@@ -682,7 +595,7 @@
           "reach_measurement": "ft",
           "description": "and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much on a successful one. if the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
           "target_count": "1",
-          "damage_value": "7 (1d8 + 3)",
+          "damage_value": "1d8 + 3",
           "damage_type": "piercing"
         },
         {
@@ -744,7 +657,7 @@
           "melee_reach_value": 4,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "3 (1d4 + 1)",
+          "damage_value": "1d4 + 1",
           "damage_type": "bludgeoning"
         },
         {
@@ -754,11 +667,11 @@
           "melee_reach_value": 5,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "4 (1d6 + 1)",
+          "damage_value": "1d6 + 1",
           "damage_type": "piercing",
           "ranged_reach_value_short": 20,
           "ranged_reach_value_long": 60,
-          "description": "or 5 (1d8 +1) piercing if used with two hands to make a melee attack"
+          "description": "or 1d8 +1 piercing if used with two hands to make a melee attack"
         },
         {
           "name": "Crossbow, light",
@@ -768,7 +681,7 @@
           "ranged_reach_value_long": 320,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "6 (1d8 + 1)",
+          "damage_value": "1d8 + 1",
           "damage_type": "piercing"
         },
         {
@@ -778,7 +691,7 @@
           "melee_reach_value": 5,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "5 (1d6+1)",
+          "damage_value": "1d6 + 1",
           "damage_type": "piercing"
         }
       ],
@@ -793,6 +706,93 @@
       "intelligence": 7,
       "wisdom": 10,
       "charisma": 7
+    },
+    {
+      "armor_class": { "value": 15, "armor_type": "chain mail" },
+      "hit_points": { "value": 39, "dice": "7d8 + 2" },
+      "speed": [
+        { "name": "Walk", "distance": 20 },
+        { "name": "Swim", "distance": 40 }
+      ],
+      "skills": [{ "name": "Stealth", "value": 3 }],
+      "senses": [{ "name": "Perception", "passive": true, "value": "10" }],
+      "languages": ["Bullywug"],
+      "challenge": { "value": "1", "experience": 200 },
+      "special_abilties": [
+        {
+          "name": "Amphibious",
+          "desc": "The bullywug can breathe air and water"
+        },
+        {
+          "name": "Speak with Frogs and Toad",
+          "desc": "The bullywug can communicate simple concepts to frogs and toads when it speaks in bullywug"
+        },
+        {
+          "name": "Standing Leap",
+          "desc": "The bullywugs long jump is up to 20ft and its high jump is up to 10ft, with or without a running start"
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "The bullywug makes two melee attacks: one with its bite and one with its spear"
+        },
+        {
+          "name": "Bite",
+          "type": "Melee Weapon Attack",
+          "hit_bonus": 4,
+          "melee_reach_value": 4,
+          "reach_measurement": "ft",
+          "target_count": "1",
+          "damage_value": "1d4 + 1",
+          "damage_type": "bludgeoning"
+        },
+        {
+          "name": "Spear",
+          "type": "Melee and Ranged Weapon Attack",
+          "hit_bonus": 4,
+          "melee_reach_value": 5,
+          "reach_measurement": "ft",
+          "target_count": "1",
+          "damage_value": "1d6 + 1",
+          "damage_type": "piercing",
+          "ranged_reach_value_short": 20,
+          "ranged_reach_value_long": 60,
+          "description": "or 1d8 + 1 piercing if used with two hands to make a melee attack"
+        },
+        {
+          "name": "Tongue",
+          "type": "Ranged Weapon Attack",
+          "hit_bonus": 4,
+          "reach_measurement": "ft",
+          "target_count": "1",
+          "damage_value": "1d8 + 1",
+          "damage_type": "bludgeoning",
+          "ranged_reach_value_long": 10,
+          "description": "If the target is Medium or smaller, it is grappled (escape DC 12). And if the target is Small or smaller, it is pulled up to 10 feet towards the bullywug, and restrained until the grapple ends. If the target is grappled and in range, the bullywug may make one bite attack against it as a bonus action. The bullywug can grapple one target at a time with its tongue."
+        },
+        {
+          "name": "Shortsword",
+          "type": "Melee Weapon Attack",
+          "hit_bonus": 4,
+          "melee_reach_value": 5,
+          "reach_measurement": "ft",
+          "target_count": "1",
+          "damage_value": "1d6 + 1",
+          "damage_type": "piercing"
+        }
+      ],
+      "id": "bullywugboss",
+      "name": "Bullywug Boss",
+      "size": "Medium",
+      "type": "Humanoid",
+      "alignment": "neutral evil",
+      "strength": 14,
+      "dexterity": 14,
+      "constitution": 15,
+      "intelligence": 7,
+      "wisdom": 11,
+      "charisma": 9
     },
     {
       "armor_class": { "value": 13, "armor_type": "armor scraps" },
@@ -815,7 +815,7 @@
           "melee_reach_value": 5,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "5 (1d6 + 2)",
+          "damage_value": "1d6 + 2",
           "damage_type": "piercing"
         },
         {
@@ -826,7 +826,7 @@
           "ranged_reach_value_long": 320,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "5 (1d6+2)",
+          "damage_value": "1d6 + 2",
           "damage_type": "piercing"
         }
       ],
@@ -875,7 +875,7 @@
           "melee_reach_value": 4,
           "reach_measurement": "ft",
           "target_count": "1",
-          "damage_value": "10 (2d6 + 3)",
+          "damage_value": "2d6 + 3",
           "damage_type": "bludgeoning",
           "description": "If the target is a creature, it must succeed on a DC 12 Con saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreased by 10 (3d6) for every 24 hours that elapse. If the curse reduces the targets hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic."
         },
@@ -1030,6 +1030,403 @@
       "intelligence": 15,
       "wisdom": 13,
       "charisma": 8
+    },
+    {
+      "armor_class": { "value": 13 },
+      "hit_points": { "value": 21 },
+      "speed": [{ "name": "Walk", "distance": 30 }],
+      "saving_throws": [
+        { "name": "Str", "value": 0 },
+        { "name": "Dex", "value": 3 },
+        { "name": "Con", "value": 1 },
+        { "name": "Int", "value": -1 },
+        { "name": "Wis", "value": 1 },
+        { "name": "Cha", "value": 2 },
+        { "name": "Charmed: Advantage" }
+      ],
+      "skills": [
+        { "name": "Acrobatics", "value": 3 },
+        { "name": "Animal Handling", "value": 1 },
+        { "name": "Arcana", "value": 1 },
+        { "name": "Athletics", "value": 0 },
+        { "name": "Deception", "value": 4 },
+        { "name": "History", "value": -1 },
+        { "name": "Insight", "value": 3 },
+        { "name": "Intimidation", "value": 2 },
+        { "name": "Investigation", "value": -3 },
+        { "name": "Medicine", "value": 1 },
+        { "name": "Nature", "value": -1 },
+        { "name": "Perception", "value": 3 },
+        { "name": "Performance", "value": 2 },
+        { "name": "Persuasion", "value": 4 },
+        { "name": "Religion", "value": -1 },
+        { "name": "Slight of Hand", "value": 3 },
+        { "name": "Stealth", "value": 3 },
+        { "name": "Survival", "value": 1 }
+      ],
+      "condition_immunities": ["Sleep"],
+      "senses": [{ "name": "darkvision", "value": "60ft" }],
+      "languages": ["Common", "Elvish", "Infernal"],
+      "challenge": {},
+      "special_abilties": [
+        { "list": ["Arcana", "Deception"], "name": "Profiencies" },
+        { "name": "Otherworldy Patron", "desc": "The Fiend" },
+        {
+          "name": "Pact Magic",
+          "desc": "You can cast known warlock spells using CHA as your spellcasting modifier (Spell DC 12, Spell Attack +4). You can use an arcane focus as a spellcasting focus."
+        },
+        {
+          "name": "Dark One’s Blessing",
+          "desc": "When you reduce a hostile creature to 0 HP, you gain 5 temp HP"
+        },
+        {
+          "list": [
+            "Agonizing Blast: When you cast eldritch blast, add +2 to the damage it deals on a hit.",
+            "Eldritch Spear: When you cast eldritch blast, its range is 300 ft."
+          ],
+          "name": "Eldritch Invocations",
+          "desc": "You learn fragments of forbidden knowledge that imbue you with an abiding magical ability."
+        },
+        {
+          "name": "Fey Ancestry",
+          "desc": "You have advantage on saves against being charmed, and magic can’t put you to sleep."
+        },
+        {
+          "name": "Trance",
+          "desc": "You don't need to sleep, but meditate semiconsciously for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
+        },
+        {
+          "name": "Elf Weapon Training",
+          "desc": "You have proficiency with the longsword, shortsword, shortbow, and longbow."
+        },
+        {
+          "name": "Fey Step",
+          "desc": "Once per short rest, you can cast the misty step spell."
+        },
+        {
+          "list": [
+            "Eldritch Blast",
+            "Guidance",
+            "Light",
+            "Minor Illusion",
+            "Vicious Mockery"
+          ],
+          "name": "Cantrips"
+        },
+        {
+          "list": ["Command", "Hellish Rebuke", "Misty Step"],
+          "name": "2nd Level Spells"
+        }
+      ],
+      "actions": [
+        {
+          "name": "Crossbow, light",
+          "type": "Range Weapon Attack",
+          "hit_bonus": 5,
+          "ranged_reach_value_short": 80,
+          "ranged_reach_value_long": 320,
+          "reach_measurement": "ft",
+          "damage_value": "1d8 + 3",
+          "damage_type": "piercing",
+          "target_count": "1"
+        },
+        {
+          "name": "Dagger",
+          "type": "Melee Weapon Attack",
+          "hit_bonus": 5,
+          "melee_reach_value": 5,
+          "reach_measurement": "ft",
+          "target_count": "1",
+          "damage_value": "1d4 + 3"
+        },
+        {
+          "name": "Eldritch Blast",
+          "type": "Ranged Spell",
+          "hit_bonus": 4,
+          "ranged_reach_value_short": 300,
+          "reach_measurement": "ft",
+          "target_count": "1",
+          "damage_value": "1d10 + 2",
+          "damage_type": "force"
+        },
+        {
+          "name": "Unarmed Strike",
+          "type": "Melee Attack",
+          "hit_bonus": 2,
+          "melee_reach_value": 5,
+          "reach_measurement": "ft",
+          "target_count": "1",
+          "damage_value": "1",
+          "damage_type": "bludgeoning"
+        }
+      ],
+      "id": "mirthal",
+      "name": "Mirthal Duskmere",
+      "size": "Medium",
+      "type": "Humanoid",
+      "strength": 10,
+      "dexterity": 16,
+      "constitution": 13,
+      "intelligence": 9,
+      "wisdom": 12,
+      "charisma": 15
+    },
+    {
+      "armor_class": { "value": 16, "armor_type": "chain mail" },
+      "hit_points": { "value": 19 },
+      "speed": [{ "name": "Walk", "distance": 30 }],
+      "saving_throws": [
+        { "name": "Str", "value": 5 },
+        { "name": "Dex", "value": 0 },
+        { "name": "Con", "value": 1 },
+        { "name": "Int", "value": 1 },
+        { "name": "Wis", "value": 1 },
+        { "name": "Cha", "value": 2 }
+      ],
+      "skills": [
+        { "name": "Acrobatics", "value": 0 },
+        { "name": "Animal Handling", "value": 3 },
+        { "name": "Arcana", "value": 1 },
+        { "name": "Athletics", "value": 5 },
+        { "name": "Deception", "value": 2 },
+        { "name": "History", "value": 1 },
+        { "name": "Insight", "value": 0 },
+        { "name": "Intimidation", "value": 2 },
+        { "name": "Investigation", "value": -1 },
+        { "name": "Medicine", "value": 2 },
+        { "name": "Nature", "value": 1 },
+        { "name": "Perception", "value": 3 },
+        { "name": "Performance", "value": 2 },
+        { "name": "Persuasion", "value": 2 },
+        { "name": "Religion", "value": 1 },
+        { "name": "Slight of Hand", "value": 0 },
+        { "name": "Stealth", "value": 0 },
+        { "name": "Survival", "value": 3 }
+      ],
+      "challenge": {},
+      "special_abilties": [
+        { "list": ["Perception", "Survival"], "name": "Proficiencies" },
+        {
+          "name": "Natural Athlete",
+          "desc": "You have proficiency in the Athletics skill."
+        },
+        {
+          "name": "Stone’s Endurance",
+          "desc": "As a reaction, reduce damage dealt to you by 1d12 -1 once per short rest."
+        },
+        {
+          "name": "Powerful Build",
+          "desc": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+        },
+        {
+          "name": "Mountain Born",
+          "desc": "You don't suffer the penalties for being in high altitudes, and have resistance to cold damage."
+        },
+        {
+          "list": [
+            "You can reroll a 1 or 2 on damage dice with melee weapons wielded with two hands."
+          ],
+          "name": "Fighting Style",
+          "desc": "Great Weapon Fighting"
+        },
+        {
+          "name": "Second Wind",
+          "desc": "Once per short rest, you can use a bonus action to regain 1d10 + 3 HP."
+        },
+        {
+          "name": "Action Surge",
+          "desc": "You can take one additional action on your turn. This can be used 1 times per short rest."
+        },
+        { "name": "Martial Archetype", "desc": "Champion" },
+        {
+          "name": "Improved Critical",
+          "desc": "Your weapon attacks score a critical hit on a roll of 19 or 20."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Greatsword",
+          "type": "Melee Weapon Attack",
+          "hit_bonus": 5,
+          "melee_reach_value": 5,
+          "reach_measurement": "ft",
+          "target_count": "1",
+          "damage_value": "26 + 3",
+          "damage_type": "slashing"
+        },
+        {
+          "name": "Homebound Axe",
+          "type": "Melee and Ranged Weapon Attack",
+          "hit_bonus": 5,
+          "melee_reach_value": 5,
+          "ranged_reach_value_short": 20,
+          "ranged_reach_value_long": 60,
+          "reach_measurement": "ft",
+          "description": "This axe, under most circumstances, returns to the user after being thrown.",
+          "target_count": "1",
+          "damage_value": "1d6 + 3",
+          "damage_type": "slashing"
+        },
+        {
+          "name": "Unarmed Strike",
+          "type": "Melee Attack",
+          "hit_bonus": 4,
+          "melee_reach_value": 4,
+          "reach_measurement": "ft",
+          "target_count": "1",
+          "damage_type": "bludgeoning",
+          "damage_value": "4"
+        }
+      ],
+      "id": "yorril",
+      "name": "Yorril Greygiant",
+      "size": "Medium",
+      "type": "humanoid",
+      "strength": 17,
+      "dexterity": 10,
+      "constitution": 9,
+      "intelligence": 12,
+      "wisdom": 13,
+      "charisma": 14
+    },
+    {
+      "armor_class": { "value": 15, "armor_type": "13 natural armor + 2 PB" },
+      "hit_points": { "value": 15, "dice": "3d8" },
+      "speed": [
+        { "name": "Walk", "distance": 40 },
+        { "name": "Climb", "distance": 40 }
+      ],
+      "senses": [
+        { "name": "darkvision", "value": "60ft" },
+        { "name": "Perception", "passive": true, "value": "12" }
+      ],
+      "languages": ["those spoken by caster"],
+      "challenge": {},
+      "special_abilties": [
+        {
+          "name": "Charge",
+          "desc": "If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra 1d6 slashing damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked prone."
+        },
+        {
+          "name": "Primal Bond",
+          "desc": "You can add your PB(+2) to any ability check or saving throw that the beast takes."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Maul",
+          "type": "Melee Weapon Attack",
+          "hit_bonus": 1,
+          "melee_reach_value": 5,
+          "reach_measurement": "ft",
+          "damage_value": "1d8 + 2 + 2(PB)",
+          "damage_type": "slashing",
+          "target_count": "1"
+        }
+      ],
+      "id": "land",
+      "name": "Beast of the Land",
+      "size": "Medium",
+      "type": "beast, ref TCoE:pg61",
+      "strength": 14,
+      "dexterity": 14,
+      "constitution": 15,
+      "wisdom": 14,
+      "charisma": 11,
+      "intelligence": 8
+    },
+    {
+      "armor_class": { "value": 15, "armor_type": "13 natural armor + 2 PB" },
+      "hit_points": { "value": 15, "dice": "3d8" },
+      "speed": [
+        { "name": "Walk", "distance": 5 },
+        { "name": "Swim", "distance": 60 }
+      ],
+      "senses": [
+        { "name": "darkvision", "value": "60ft" },
+        { "name": "Perception", "passive": true, "value": "12" }
+      ],
+      "languages": ["those spoken by caster"],
+      "challenge": {},
+      "special_abilties": [
+        {
+          "name": "Amphibious",
+          "desc": "The beast can breathe both air and water"
+        },
+        {
+          "name": "Primal Bond",
+          "desc": "You can add your PB(+2) to any ability check or saving throw that the beast takes."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Binding Strike",
+          "type": "Melee Weapon Attack",
+          "hit_bonus": 1,
+          "melee_reach_value": 5,
+          "reach_measurement": "ft",
+          "damage_value": "1d8 + 2 + 2(PB)",
+          "damage_type": "slashing or bludgeoning",
+          "target_count": "1",
+          "description": "and the target is grappled (escape DC equals your spell save DC). Until this grapple ends, the beast can't use this attack on another target "
+        }
+      ],
+      "id": "sea",
+      "name": "Beast of the Sea",
+      "size": "Medium",
+      "type": "beast, ref TCoE:pg61",
+      "strength": 14,
+      "dexterity": 14,
+      "constitution": 15,
+      "wisdom": 14,
+      "charisma": 11,
+      "intelligence": 8
+    },
+    {
+      "armor_class": { "value": 15, "armor_type": "13 natural armor + 2 PB" },
+      "hit_points": { "value": 12, "dice": "3d6" },
+      "speed": [
+        { "name": "Walk", "distance": 10 },
+        { "name": "Fly", "distance": 60 }
+      ],
+      "senses": [
+        { "name": "darkvision", "value": "60ft" },
+        { "name": "Perception", "passive": true, "value": "12" }
+      ],
+      "languages": ["those spoken by caster"],
+      "challenge": {},
+      "special_abilties": [
+        {
+          "name": "Flyby",
+          "desc": "The beast doesn't provoke opportunity attacks when it flies out of reach"
+        },
+        {
+          "name": "Primal Bond",
+          "desc": "You can add your PB(+2) to any ability check or saving throw that the beast takes."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Shred",
+          "type": "Melee Weapon Attack",
+          "hit_bonus": 1,
+          "melee_reach_value": 5,
+          "reach_measurement": "ft",
+          "damage_value": "1d4 + 3 + 2(PB)",
+          "damage_type": "slashing",
+          "target_count": "1"
+        }
+      ],
+      "id": "sky",
+      "name": "Beast of the Sky",
+      "size": "Medium",
+      "type": "beast, ref TCoE:pg61",
+      "strength": 6,
+      "dexterity": 16,
+      "constitution": 13,
+      "wisdom": 14,
+      "charisma": 11,
+      "intelligence": 8
     }
   ]
 }
