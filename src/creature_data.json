@@ -1427,6 +1427,145 @@
       "wisdom": 14,
       "charisma": 11,
       "intelligence": 8
+    },
+    {
+      "armor_class": { "value": 14, "armor_type": "leather armor" },
+      "hit_points": { "value": 18 },
+      "speed": [{ "name": "Walk", "distance": 25 }],
+      "senses": [{ "name": "Perception", "passive": true, "value": "10" }],
+      "languages": ["Common"],
+      "damage_resistances": ["poison"],
+      "challenge": { "value": "1/4", "experience": 50 },
+      "special_abilties": [
+        {
+          "name": "Lucky",
+          "desc": "If the halfing rolls a 1 on the attack roll, ability check or saving throw it can reroll the dice and must use the new result"
+        },
+        {
+          "name": "Halfling Nimbleness",
+          "desc": "The halfling can move through the space of any creature medium or larger"
+        },
+        {
+          "name": "Stout Resilience",
+          "desc": "The halfling has advantage on saving throws against poison"
+        },
+        {
+          "name": "Brave",
+          "desc": "The halfling has advantage on saving throws against being frightened "
+        },
+        {
+          "name": "Thief",
+          "desc": "Erlan has advantage on stealth and sleight of hand checks"
+        }
+      ],
+      "actions": [
+        {
+          "name": "Dagger",
+          "type": "Melee or Ranged Weapon Attack",
+          "hit_bonus": 4,
+          "melee_reach_value": 5,
+          "reach_measurement": "ft",
+          "ranged_reach_value_short": 20,
+          "ranged_reach_value_long": 60,
+          "target_count": "1",
+          "damage_value": "1d4 + 2"
+        }
+      ],
+      "id": "erlan",
+      "name": "Erlan Quickstep",
+      "size": "Small",
+      "type": "humanoid",
+      "alignment": "neutral",
+      "strength": 10,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 10
+    },
+    {
+      "armor_class": { "value": 15, "armor_type": "natural armor" },
+      "hit_points": { "value": 13 },
+      "speed": [
+        { "name": "Walk", "distance": 30 },
+        { "name": "Swim", "distance": 30 }
+      ],
+      "skills": [{ "name": "Stealth", "value": 4 }],
+      "senses": [
+        { "name": "blindsight", "value": "30ft" },
+        { "name": "Perception", "value": "9", "passive": true }
+      ],
+      "languages": [],
+      "challenge": { "value": "1/8", "experience": 25 },
+      "special_abilties": [
+        { "name": "Amphibious", "desc": "The crab can breathe air and water" }
+      ],
+      "actions": [
+        {
+          "name": "Claw",
+          "type": "Melee Weapon Attack",
+          "hit_bonus": 3,
+          "melee_reach_value": 5,
+          "reach_measurement": "ft",
+          "description": "and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only one target.",
+          "target_count": "1",
+          "damage_value": "1d6 + 1",
+          "damage_type": "bludgeoning"
+        }
+      ],
+      "id": "giantcrab",
+      "name": "Giant Crab",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 11,
+      "intelligence": 1,
+      "wisdom": 9,
+      "charisma": 3
+    },
+    {
+      "armor_class": { "value": 16, "armor_type": "natural armor" },
+      "hit_points": { "value": 35 },
+      "speed": [
+        { "name": "Walk", "distance": 30 },
+        { "name": "Swim", "distance": 30 }
+      ],
+      "skills": [{ "name": "Stealth", "value": 2 }],
+      "senses": [
+        { "name": "blindsight", "value": "30ft" },
+        { "name": "Perception", "value": "11", "passive": true }
+      ],
+      "languages": [],
+      "challenge": { "value": "1/2", "experience": 75 },
+      "special_abilties": [
+        { "name": "Amphibious", "desc": "The crab can breathe air and water" }
+      ],
+      "actions": [
+        {
+          "name": "Claw",
+          "type": "Melee Weapon Attack",
+          "hit_bonus": 4,
+          "melee_reach_value": 5,
+          "reach_measurement": "ft",
+          "description": "and the target is grappled (escape DC 13). The crab has two claws, each of which can grapple only one target.",
+          "target_count": "1",
+          "damage_value": "2d6 + 1",
+          "damage_type": "bludgeoning"
+        }
+      ],
+      "id": "giantcrabboss",
+      "name": "Giant Crab Boss",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 12,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 4
     }
   ]
 }
