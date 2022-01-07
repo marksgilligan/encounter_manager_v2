@@ -70,7 +70,7 @@ export default function EncounterList({
                         {`${
                           modifier(creature.strength) >= 0
                             ? `(+${modifier(creature.strength)})`
-                            : `(-${modifier(creature.strength)})`
+                            : `(${modifier(creature.strength)})`
                         }`}{" "}
                         &nbsp;&nbsp;{" "}
                       </span>
@@ -80,7 +80,7 @@ export default function EncounterList({
                         {`${
                           modifier(creature.dexterity) >= 0
                             ? `(+${modifier(creature.dexterity)})`
-                            : `(-${modifier(creature.dexterity)})`
+                            : `(${modifier(creature.dexterity)})`
                         }`}{" "}
                         &nbsp;&nbsp;{" "}
                       </span>
@@ -90,7 +90,7 @@ export default function EncounterList({
                         {`${
                           modifier(creature.constitution) >= 0
                             ? `(+${modifier(creature.constitution)})`
-                            : `(-${modifier(creature.constitution)})`
+                            : `(${modifier(creature.constitution)})`
                         }`}{" "}
                       </span>
                       <br />
@@ -100,7 +100,7 @@ export default function EncounterList({
                         {`${
                           modifier(creature.intelligence) >= 0
                             ? `(+${modifier(creature.intelligence)})`
-                            : `(-${modifier(creature.intelligence)})`
+                            : `(${modifier(creature.intelligence)})`
                         }`}{" "}
                         &nbsp;&nbsp;{" "}
                       </span>
@@ -110,7 +110,7 @@ export default function EncounterList({
                         {`${
                           modifier(creature.wisdom) >= 0
                             ? `(+${modifier(creature.wisdom)})`
-                            : `(-${modifier(creature.wisdom)})`
+                            : `(${modifier(creature.wisdom)})`
                         }`}{" "}
                         &nbsp;&nbsp;{" "}
                       </span>
@@ -120,7 +120,7 @@ export default function EncounterList({
                         {`${
                           modifier(creature.charisma) >= 0
                             ? `(+${modifier(creature.charisma)})`
-                            : `(-${modifier(creature.charisma)})`
+                            : `(${modifier(creature.charisma)})`
                         }`}{" "}
                         &nbsp;&nbsp;
                       </span>

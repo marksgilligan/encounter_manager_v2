@@ -1,6 +1,7 @@
 .encounter-list {
   display: flex;
-  max-height: 400px;
+  min-height: 300px;
+  max-height: 300px;
   width: 100vw;
   flex-direction: row;
   overflow-x: scroll;
@@ -11,7 +12,6 @@
   border: 3px solid transparent;
   min-width: 300px;
   max-width: 300px;
-  min-height: 250px;
   padding: 5px;
   background-image: url("../images/Y5.png");
   background-repeat: no-repeat;

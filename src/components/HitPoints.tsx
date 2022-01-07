@@ -12,14 +12,16 @@ export default function HitPoints({ creature }: HitPointsType) {
     <>
       <div className="encounter_title">
         <button
+          className="hitpointButton"
           onClick={() => (
             setHitPoints(hitPoints - 1), creature.hit_points.value--
-          )}
-        >
+            )}
+            >
           -
         </button>
         {creature.hit_points.value}
         <button
+          className="hitpointButton"
           onClick={() => (
             setHitPoints(hitPoints + 1), creature.hit_points.value++
           )}

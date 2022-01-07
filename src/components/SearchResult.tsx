@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./SearchResult.css";
 
 interface SearchResultType {
@@ -12,7 +11,7 @@ export default function SearchResult({
 }: SearchResultType) {
   if (searchResult.name) {
     return (
-      <>
+      <div className="searchResultContainer">
         <div className="name">{searchResult.name}</div>
         <div className="description">
           {searchResult.size} {searchResult.type}, {searchResult.alignment}
@@ -275,7 +274,7 @@ export default function SearchResult({
                           {action_item.hit_bonus
                             ? `Hit: ${
                                 action_item.damage_value
-                                  ? `${action_item.damage_value}${action_item.damage_type}`
+                                  ? `${action_item.damage_value} ${action_item.damage_type}`
                                   : null
                               }`
                             : null}{" "}
@@ -357,7 +356,7 @@ export default function SearchResult({
                             {action_item.hit_bonus
                               ? `Hit: ${
                                   action_item.damage_value
-                                    ? `${action_item.damage_value}${action_item.damage_type}.`
+                                    ? `${action_item.damage_value} ${action_item.damage_type}.`
                                     : null
                                 }`
                               : null}
@@ -381,7 +380,7 @@ export default function SearchResult({
             </div>
           </div>
         </div>
-      </>
+      </div>
     );
   }
   return <></>;

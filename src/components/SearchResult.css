@@ -1,3 +1,12 @@
+.searchResultContainer {
+  max-width: 800px;
+  padding: 10px;
+  background-image: url("../images/monster_block_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+}
+
 .name {
   font-size: 2em;
 }
@@ -6,12 +15,6 @@
   font-size: small;
 }
 
-.damage-resitances {
-}
-.damage-immunities {
-}
-.condition-immunities {
-}
 .abiltiy-list-item {
   font-size: small;
 }
