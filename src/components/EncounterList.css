@@ -10,10 +10,10 @@
 
 .creature-block {
   border: 3px solid transparent;
-  min-width: 300px;
-  max-width: 300px;
+  min-width: 250px;
+  max-width: 250px;
   padding: 5px;
-  background-image: url("../images/Y5.png");
+  background-image: url("../images/parchment.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;

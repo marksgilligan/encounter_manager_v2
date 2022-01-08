@@ -13,8 +13,9 @@ export default function SearchResult({
     return (
       <div className="searchResultContainer">
         <div className="name">{searchResult.name}</div>
+        <div>Ref: {searchResult.ref}</div>
         <div className="description">
-          {searchResult.size} {searchResult.type}, {searchResult.alignment}
+          {searchResult.size} {searchResult.type}, {searchResult.alignment}.
         </div>
         <hr />
         <div className="armorclass">

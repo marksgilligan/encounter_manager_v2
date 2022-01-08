@@ -3,10 +3,7 @@
     {
       "armor_class": { "value": 10, "armor_type": "No armor" },
       "hit_points": { "value": 9, "dice": "2d8" },
-      "speed": [
-        { "name": "Walk", "distance": 30 },
-        { "name": "Run", "distance": 30 }
-      ],
+      "speed": [{ "name": "Walk", "distance": 30 }],
       "skills": [
         { "name": "Medicine", "value": 4 },
         { "name": "Religion", "value": 2 }
@@ -38,6 +35,7 @@
       ],
       "id": "acolyte",
       "name": "Acolyte",
+      "ref": "mm342",
       "size": "Medium",
       "type": "humonoid",
       "alignment": "any",
@@ -139,7 +137,8 @@
         }
       ],
       "id": "lizardfolk",
-      "name": "nihesbghs",
+      "name": "Lizardfolk",
+      "ref": "mm204",
       "size": "Medium",
       "type": "Humanoid",
       "alignment": "neutral",
@@ -214,6 +213,7 @@
       ],
       "id": "lizardfolkshaman",
       "name": "Lizardfolk Shaman",
+      "ref": "mm205",
       "size": "Medium",
       "type": "humanoid",
       "alignment": "neutral",
@@ -298,6 +298,7 @@
       ],
       "id": "lizardfolkking",
       "name": "Lizardfolk King",
+      "ref": "205",
       "size": "Medium",
       "type": "humanoid",
       "alignment": "neutral",
@@ -354,6 +355,7 @@
       ],
       "id": "giantcrocodile",
       "name": "Giant Crocodile",
+      "ref": "mm324",
       "size": "Huge",
       "type": "beast",
       "alignment": "unaligned",
@@ -394,6 +396,7 @@
       ],
       "id": "crocodile",
       "name": "Crocodile",
+      "ref": "mm320",
       "size": "Large",
       "type": "beast",
       "alignment": "unaligned",
@@ -430,6 +433,7 @@
       ],
       "id": "constrictorsnake",
       "name": "Constrictor Snake",
+      "ref": "mm320",
       "size": "Large",
       "type": "beast",
       "alignment": "unaligned",
@@ -461,6 +465,7 @@
       ],
       "id": "lizard",
       "name": "Lizard",
+      "ref": "mm332",
       "size": "Tiny",
       "type": "beast",
       "alignment": "unaligned",
@@ -509,6 +514,7 @@
       ],
       "id": "giantconstrictorsnake",
       "name": "Giant Constrictor Snake",
+      "ref": "mm324",
       "size": "Huge",
       "type": "beast",
       "alignment": "unalinged",
@@ -548,6 +554,7 @@
       ],
       "id": "giantpoisonoussnake",
       "name": "Giant Poisonous Snake",
+      "ref": "mm327",
       "size": "Medium",
       "type": "beast",
       "alignment": "unalinged",
@@ -610,6 +617,7 @@
       ],
       "id": "giantspider",
       "name": "Giant Spider",
+      "ref": "mm328",
       "size": "Large",
       "type": "beast",
       "alignment": "unalinged",
@@ -697,6 +705,7 @@
       ],
       "id": "bullywug",
       "name": "Bullywug",
+      "ref": "mm35",
       "size": "Medium",
       "type": "Humanoid",
       "alignment": "neutral evil",
@@ -784,6 +793,7 @@
       ],
       "id": "bullywugboss",
       "name": "Bullywug Boss",
+      "ref": "custom mm35",
       "size": "Medium",
       "type": "Humanoid",
       "alignment": "neutral evil",
@@ -832,6 +842,7 @@
       ],
       "id": "skeleton",
       "name": "Skeleton",
+      "ref": "mm272",
       "size": "Medium",
       "type": "undead",
       "alignment": "lawful evil",
@@ -886,6 +897,7 @@
       ],
       "id": "mummy",
       "name": "Mummy",
+      "ref": "mm228",
       "size": "Medium",
       "type": "undead",
       "alignment": "lawful evil",
@@ -1326,6 +1338,7 @@
       ],
       "id": "land",
       "name": "Beast of the Land",
+      "ref": "tcoe61",
       "size": "Medium",
       "type": "beast, ref TCoE:pg61",
       "strength": 14,
@@ -1373,6 +1386,7 @@
       ],
       "id": "sea",
       "name": "Beast of the Sea",
+      "ref": "tcoe61",
       "size": "Medium",
       "type": "beast, ref TCoE:pg61",
       "strength": 14,
@@ -1419,6 +1433,7 @@
       ],
       "id": "sky",
       "name": "Beast of the Sky",
+      "ref": "tcoe61",
       "size": "Medium",
       "type": "beast, ref TCoE:pg61",
       "strength": 6,
@@ -1515,6 +1530,7 @@
       ],
       "id": "giantcrab",
       "name": "Giant Crab",
+      "ref": "mm324",
       "size": "Medium",
       "type": "beast",
       "alignment": "unaligned",
@@ -1557,6 +1573,7 @@
       ],
       "id": "giantcrabboss",
       "name": "Giant Crab Boss",
+      "ref": "custom mm324",
       "size": "Large",
       "type": "beast",
       "alignment": "unaligned",
@@ -1565,6 +1582,195 @@
       "constitution": 12,
       "intelligence": 2,
       "wisdom": 10,
+      "charisma": 4
+    },
+    {
+      "armor_class": { "value": 17, "armor_type": "leather armor" },
+      "hit_points": { "value": 66 },
+      "speed": [{ "name": "Walk", "distance": 30 }],
+      "skills": [
+        { "name": "Acrobatics", "value": 8 },
+        { "name": "Athletics", "value": 5 },
+        { "name": "Persuasion", "value": 6 }
+      ],
+      "senses": [{ "name": "Perception", "value": "10", "passive": true }],
+      "languages": ["varies"],
+      "challenge": { "value": "3", "experience": 700 },
+      "special_abilties": [
+        {
+          "name": "Lightfooted",
+          "desc": "The swashbuckler can take the dash or disengage action as a bonus action on each of its turns"
+        },
+        {
+          "name": "Suave Defense",
+          "desc": "While the swashbuckler is wearing light or no armor and wielding no shield, its AC includes in Charisma modifer."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "The swashbuckler makes three melee attacks, one with its dagger and two with its rapier."
+        },
+        {
+          "name": "Dagger",
+          "type": "Melee or Ranged Weapon Attack",
+          "hit_bonus": 6,
+          "melee_reach_value": 5,
+          "ranged_reach_value_short": 20,
+          "ranged_reach_value_long": 60,
+          "reach_measurement": "ft",
+          "target_count": "1",
+          "damage_value": "1d4 + 4",
+          "damage_type": "piercing"
+        },
+        {
+          "name": "Rapier",
+          "type": "Melee Weapon Attack",
+          "hit_bonus": 6,
+          "melee_reach_value": 5,
+          "reach_measurement": "ft",
+          "target_count": "1",
+          "damage_value": "1d8 + 4",
+          "damage_type": "piercing"
+        }
+      ],
+      "id": "swashbuckler",
+      "name": "Swashbuckler",
+      "ref": "vgtm217",
+      "size": "Medium",
+      "type": "humanoid",
+      "alignment": "",
+      "strength": 12,
+      "dexterity": 18,
+      "constitution": 12,
+      "intelligence": 14,
+      "wisdom": 11,
+      "charisma": 15
+    },
+    {
+      "armor_class": { "value": 11 },
+      "hit_points": { "value": 27 },
+      "speed": [{ "name": "Walk", "distance": 28 }],
+      "skills": [
+        { "name": "Medicine", "value": 4 },
+        { "name": "Nature", "value": 3 },
+        { "name": "Perception", "value": 4 }
+      ],
+      "senses": [{ "name": "Perception", "note": "14", "passive": true }],
+      "languages": ["Druidic", "Common", "Bullywug"],
+      "challenge": { "value": "2", "experience": 450 },
+      "special_abilties": [
+        {
+          "list": [
+            "Cantrips (at will): druidcraft, produce flame, shillelagh",
+            "1st Level (4 slots): entangle, longstrider, speak with animals, thunderwave",
+            "2nd Level (3 slots): animal messenger, barkskin"
+          ],
+          "name": "Spellcasting",
+          "desc": "The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (save DC 12, +4 to hit with spell attacks). It has the following spell prepared:"
+        }
+      ],
+      "actions": [
+        {
+          "name": "Quarterstaff",
+          "type": "Melee Weapon Attack",
+          "hit_bonus": 2,
+          "melee_reach_value": 5,
+          "reach_measurement": "ft",
+          "description": "+2 to hit with shillelagh, 1d8 bludgeoning damage with two hands. Or 1d8 + 2 with shilleagh.",
+          "target_count": "1",
+          "damage_value": "1d6",
+          "damage_type": "bludgeoning"
+        },
+        {
+          "name": "Wild Shape: Parrot",
+          "description": "The druid becomes a parrot. You can use a bonus action to dismiss this form."
+        }
+      ],
+      "id": "hermitdruid",
+      "name": "Hermit Druid",
+      "ref": "mm346",
+      "size": "Medium",
+      "type": "humanoid",
+      "alignment": "Choatic Neutral",
+      "strength": 10,
+      "dexterity": 12,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 15,
+      "charisma": 11
+    },
+    {
+      "armor_class": { "value": 14 },
+      "hit_points": { "value": 82 },
+      "speed": [{ "name": "Walk", "distance": 10 }],
+      "skills": [
+        { "name": "Perception", "value": 3 },
+        { "name": "Stealth", "value": 3 }
+      ],
+      "condition_immunities": ["blinded", "charmed", "deafened", "exhaustion"],
+      "senses": [
+        { "name": "tremorsense", "value": "60ft" },
+        { "name": "blindsight", "value": "30ft" },
+        { "name": "Perception", "value": "13", "passive": true }
+      ],
+      "challenge": { "value": "2", "experience": 450 },
+      "special_abilties": [
+        {
+          "name": "Grasping Tendrils",
+          "desc": "The plant can have up to 2 tendrils at a time. Each tendril can be attacked (AC 13, 10 hit points). Destroying a tendril deals no damage to the plant, which can extrude a replacement tendril on its next turn. A tendril can be broken if a creature uses its action and succeeds on a DC 13 Strength check against it."
+        },
+        {
+          "name": "False Appearance",
+          "desc": "When the plant remains motionless, it looks like a normal plant."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "The plant makes three melee attacks: one with its bite and two with its tendrils."
+        },
+        {
+          "name": "Tendril",
+          "type": "Melee Weapon Attack",
+          "hit_bonus": 4,
+          "melee_reach_value": 30,
+          "target_count": "1",
+          "reach_measurement": "ft",
+          "description": "and is grappled (escape DC 13). Until the grapple ends, the target is restrained. A tendril that is grappling a creature can pull the creature up to 20 feet straight toward it.",
+          "damage_value": "1d6 + 2",
+          "damage_type": "bludgeoning"
+        },
+        {
+          "name": "Bite",
+          "type": "Melee Weapon Attack",
+          "hit_bonus": 4,
+          "melee_reach_value": 10,
+          "reach_measurement": "ft",
+          "target_count": "1",
+          "damage_value": "2d8 + 2",
+          "damage_type": "piercing"
+        },
+        {
+          "name": "Swallow",
+          "description": "The plant makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the plant, and it takes 10 (3d6) acid damage at the start of each of the plant’s turns. The plant can have only one creature swallowed at a time. If the plant dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone."
+        },
+        {
+          "name": "Entangle (Recharge 5-6)",
+          "description": "Grasping roots and vines sprout in a 15-foot-radius centered on the plant, withering after 1 minute. For the duration, the area is difficult terrain for non-plant creatures. In addition, each creature of the plant’s choice in the area must succeed on a DC 13 Strength saving throw or become restrained. A creature can use its action to make a DC 13 Strength check, freeing itself or another entangled creature within reach on success."
+        }
+      ],
+      "id": "plant",
+      "name": "Carnivorous Plant",
+      "ref": "custom",
+      "size": "Large",
+      "type": "plant",
+      "alignment": "unalinged",
+      "strength": 10,
+      "dexterity": 16,
+      "constitution": 14,
+      "intelligence": 6,
+      "wisdom": 12,
       "charisma": 4
     }
   ]

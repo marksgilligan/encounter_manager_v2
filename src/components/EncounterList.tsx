@@ -212,7 +212,7 @@ export default function EncounterList({
                           )}
                         </div>
                       ) : null}
-                      {creature.skills ? (
+                      {creature.skills && creature.skills < 7 ? (
                         <div className="skills">
                           <span className="encounter_subtitle">Skills:</span>{" "}
                           {creature.skills.map((skillsItem: any) => {
