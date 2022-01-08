@@ -30,7 +30,7 @@
   grid-template-columns: repeat(3, 1fr);
 }
 .selected {
-  border: rgb(94, 230, 94) 3px solid !important;
+  border: rgb(221, 11, 11) 3px solid !important;
 }
 .block_footer {
   position: absolute;

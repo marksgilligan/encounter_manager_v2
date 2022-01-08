@@ -1,7 +1,7 @@
 .hitpointButton {
   border: none;
-  background: white;
   border-radius: 50px;
+  background: white;
 }
 .hitpointButton :hover {
   cursor: pointer;

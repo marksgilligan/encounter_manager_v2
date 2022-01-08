@@ -90,6 +90,13 @@ function App() {
           ) : null}
           <button onClick={sortList}>Sort List</button>
           <button onClick={nextTurn}>Next Turn</button>
+          <div className="quickList">
+            {
+              encounterList.map((item: any, index: number)=>{
+                return <div className={`quickListItem ${(index === currentPlayer) ? 'selected' : null}`}>{item.name} - HP: {item?.hit_points.value}</div>
+              })
+            }
+          </div>
         </div>
       </div>
     </div>
